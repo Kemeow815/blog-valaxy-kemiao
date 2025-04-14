@@ -58,16 +58,16 @@ onMounted(async () => {
               &nbsp;
             </template>
           </p>
-          <p v-if="themeConfig.indiewebring">
+          <!-- <p v-if="themeConfig.indiewebring">
             <a href="https://xn--sr8hvo.ws/previous">←</a>
               An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍
             <a href="https://xn--sr8hvo.ws/next">→</a>
-          </p>
+          </p> -->
           <p v-if="themeConfig.footer.hitokoto?.enable">{{ hitokoto || "用代码表达言语的魅力，用代码书写山河的壮丽。" }}</p>
         </div>
         <div class="text-center lg:text-right">
           <p>
-            Built with <a href="https://valaxy.site">Valaxy</a> by Big_Cake
+            Built with <a href="https://valaxy.site">Valaxy</a> by 克喵爱吃卤面
           </p>
           <p>Customized by SZNinty</p>
         </div>

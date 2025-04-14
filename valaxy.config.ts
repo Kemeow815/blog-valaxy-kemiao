@@ -4,6 +4,7 @@ import { addonLightGallery } from "valaxy-addon-lightgallery";
 import compression from "vite-plugin-compression2";
 import { ViteMinifyPlugin } from 'vite-plugin-minify';
 import { tab } from "@mdit/plugin-tab";
+import { addonWaline } from 'valaxy-addon-waline'
 
 /**
  * User Config
@@ -11,11 +12,15 @@ import { tab } from "@mdit/plugin-tab";
 export default defineValaxyConfig<ThemeConfig>({
   addons: [
     addonLightGallery(),
+    addonWaline({
+      // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
+      serverURL: 'https://waline-valaxy-blog.314926.xyz',
+    }),
   ],
-
+  
   vite: {
     optimizeDeps: {
-      include: ["artalk", "axios"],
+      include: ["axios"],
     },
     plugins: [
       compression(),
@@ -31,7 +36,7 @@ export default defineValaxyConfig<ThemeConfig>({
 
   themeConfig: {
     author: {
-      slogan: "种下一颗有故事的种子，让它带着魔法和奇迹生根发芽",
+      slogan: "总有些事情高于其他！",
     },
 
     footer: {
@@ -94,32 +99,32 @@ export default defineValaxyConfig<ThemeConfig>({
         }
       ],
       left_bottom:[
-        {
-          name: "萌ICP备20231033号",
-          url: "https://icp.gov.moe/?keyword=20231033"
-        },
-        {
-          name: "团ICP备20250007号",
-          url: "https://icp.星.fun/id.php?keyword=20250007"
-        },
-        {
-          name: "MIIT备20240818号",
-          url: "https://beian.miit.cn.com/gov/search.php?query=20240818"
-        },
-        {
-          name: "官码2024000155号",
-          url: "https://guan.ma/hao/2024000155/"
-        },
-        {
-          name: "SICP备20243448号",
-          url: "https://icp.sepocatch.xyz/search.php?keyword=blog.storical.space"
-        },
-        {
-          name: "追梦ICP备20251025号",
-          url: "https://icp.20097747.xyz/id.php?keyword=20251025"
-        }
+        // {
+        //   name: "萌ICP备20231033号",
+        //   url: "https://icp.gov.moe/?keyword=20231033"
+        // },
+        // {
+        //   name: "团ICP备20250007号",
+        //   url: "https://icp.星.fun/id.php?keyword=20250007"
+        // },
+        // {
+        //   name: "MIIT备20240818号",
+        //   url: "https://beian.miit.cn.com/gov/search.php?query=20240818"
+        // },
+        // {
+        //   name: "官码2024000155号",
+        //   url: "https://guan.ma/hao/2024000155/"
+        // },
+        // {
+        //   name: "SICP备20243448号",
+        //   url: "https://icp.sepocatch.xyz/search.php?keyword=blog.storical.space"
+        // },
+        // {
+        //   name: "追梦ICP备20251025号",
+        //   url: "https://icp.20097747.xyz/id.php?keyword=20251025"
+        // }
       ],
-      since: 2021,
+      since: 2025,
       beian: {
         icp: {
           enable: false,
@@ -217,9 +222,9 @@ export default defineValaxyConfig<ThemeConfig>({
     ],
 
     announcement: {
-      enable: false,
+      enable: true,
       type: "warning",
-      content: "测试",
+      content: "欢迎来到我的博客，这里记录了我的生活和思考。",
     },
 
     valaxyDarkOptions: {

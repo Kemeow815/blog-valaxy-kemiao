@@ -1,21 +1,21 @@
 import { defineSiteConfig } from "valaxy";
 
 export default defineSiteConfig({
-  url: "https://blog.storical.space",
-  favicon: "https://images1.blog.sinzmise.top/profile/icon.avif",
+  url: "https://www.kemiaosw.top",
+  favicon: "https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/Kemeow815avatar.png",
   lang: "zh-CN",
-  title: "汐塔魔法屋",
+  title: "喵落阁",
   author: {
-    name: "王九弦SZ·Ninty",
-    avatar: "https://images1.blog.sinzmise.top/profile/avatar.avif",
-    email: "email@sinzmise.top",
-    link: "https://www.storical.space",
+    name: "克喵爱吃卤面",
+    avatar: "https://s2.loli.net/2025/04/10/DTvjJeRY5b4i3Ga.jpg",
+    email: "kemiaofx@163.com",
+    link: "https://www.kemiao.online",
   },
-  description: "欢迎各位来到这个空间当中的小屋",
+  description: "每一段旅行都有终点！",
   subtitle: "来逛逛吧！",
 
   feed: {
-    favicon: "https://images1.blog.sinzmise.top/profile/icon.avif",
+    favicon: "https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/Kemeow815avatar.png",
   },
 
   cdn: {
@@ -25,7 +25,7 @@ export default defineSiteConfig({
   social: [
     {
       name: "GitHub",
-      link: "https://github.com/SinzMise",
+      link: "https://github.com/Kemeow815",
       icon: "ri-github-line",
       color: "#6e5494",
     },
@@ -37,7 +37,7 @@ export default defineSiteConfig({
     },
     {
       name: "E-Mail",
-      link: "mailto:email@sinzmise.top",
+      link: "mailto:kemiaofx@163.com",
       icon: "ri-mail-line",
       color: "#8E71C1",
     },
@@ -50,11 +50,11 @@ export default defineSiteConfig({
 
   sponsor: {
     enable: true,
-    description: "给我打钱，助力汐塔计划能够启动（划掉",
+    description: "给我打钱，助力资源分享计划",
     methods: [
       {
         name: "支付宝",
-        url: "/images/a28f41b28eb936764b8111c4cedb0e8.jpg",
+        url: "https://s2.loli.net/2025/04/05/EXl1ANdSiPvpMCr.jpg",
         color: "#00A3EE",
         icon: "i-ri-alipay-line",
       },

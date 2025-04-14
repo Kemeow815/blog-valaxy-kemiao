@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import { watch, nextTick, ref, onMounted, onBeforeUnmount } from "vue";
 import { useRoute } from "vue-router";
-import Artalk from "artalk";
-import "artalk/dist/Artalk.css";
+import { init } from '@waline/client';
+import '@waline/client/style';
 import { useFrontmatter } from "valaxy";
 import { useAppStore } from "valaxy";
 
@@ -11,17 +11,17 @@ const fm = useFrontmatter();
 const el = ref<HTMLElement | null>(null);
 const route = useRoute();
 
-let artalk: Artalk;
+let walineInstance: any;
 
 onMounted(() => {
   nextTick(() => {
-    initArtalk(getConfByPage());
+    initWaline(getConfByPage());
   });
   watch(
     () => ({ isDark: appStore.isDark }),
     (newVal) => {
-      if (artalk) {
-        artalk.setDarkMode(newVal.isDark);
+      if (walineInstance) {
+        walineInstance.update({ dark: newVal.isDark ? 'auto' : 'light' });
       }
     }
   );
@@ -31,36 +31,30 @@ watch(
   () => route.path,
   () => {
     nextTick(() => {
-      artalk.update(getConfByPage());
-      artalk.reload();
+      walineInstance?.update(getConfByPage());
     });
   }
 );
 
 onBeforeUnmount(() => {
-  artalk.destroy();
+  walineInstance?.destroy();
 });
 
-function initArtalk(conf: any) {
-  artalk = Artalk.init({
+function initWaline(conf: any) {
+  walineInstance = init({
     el: el.value,
-    emoticons: "/assets/emoticons/default.json",
-    gravatar: {
-      mirror: "https://cdn.libravatar.org/avatar/",
-    },
     ...conf,
   });
 }
 
 function getConfByPage() {
   return {
-    pageKey: "" + route.path,
+    path: route.path,
     pageTitle: fm.value.title,
-    server: "https://artalk.sinzmise.top",
-    site: "汐塔魔法屋",
-    useBackendConf: true,
-    locale: "auto",
-    darkMode: appStore.isDark,
+    serverURL: "https://waline-valaxy-blog.314926.xyz", // 替换为你的Waline服务端地址
+    locale: 'zh-CN',
+    dark: appStore.isDark ? 'auto' : 'light',
+    // 其他Waline配置项
   };
 }
 </script>

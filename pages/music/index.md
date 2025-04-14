@@ -40,4 +40,3 @@ aplayer: true
 
 风格偏温柔一些，个人喜欢沃玛的偏温柔歌曲
 
-<Comment />
