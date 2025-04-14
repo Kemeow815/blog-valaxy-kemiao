@@ -239,7 +239,7 @@ export default defineValaxyConfig<ThemeConfig>({
       circleTransition: false,
     },
 
-    pageLoading: true,
+    pageLoading: false,
 
     webmention: {
       enable: false,
@@ -267,7 +267,7 @@ export default defineValaxyConfig<ThemeConfig>({
   },
 
   build: {
-    ssgForPagination: false,
+    ssgForPagination: true,
   },
 
   modules: {
