@@ -11,7 +11,7 @@ comment: false
 ::: tip
 你可以点击下面的按钮切换语言。
 
-最后更新：2024 / 07 / 23
+最后更新：2025 / 04 / 13
 :::
 
 </div>
@@ -21,7 +21,7 @@ comment: false
 ::: tip
 You can switch languages by clicking the button below.
 
-Last update: 2024 / 07 / 23.
+Last update: 2025 / 04 / 13.
 :::
 
 </div>
@@ -60,7 +60,7 @@ Last update: 2024 / 07 / 23.
 您应该定期查看本页面，使用浏览器的「刷新」按钮，然后检查本政策的任何修改。如果「最后更新」日期保持不变，可以假设没有更改。
 :::
 
-新修改的政策将立刻替代此前发布的所有版本，但 CDN 提供商、网站托管商、浏览器、运营商和其他组织或个人可能出于节省带宽或其他因素缓存本页面，在这种情况下导致您看到的页面内容可能和实际不符，应当以 GitHub 提交记录为准。您始终可以通过[此链接](https://github.com/Big-Cake-jpg/big-cake-jpg.github.io/blob/source/pages/policies/privacy.md)查看本页面的原始 Markdown 文件。
+新修改的政策将立刻替代此前发布的所有版本，但 CDN 提供商、网站托管商、浏览器、运营商和其他组织或个人可能出于节省带宽或其他因素缓存本页面，在这种情况下导致您看到的页面内容可能和实际不符，应当以 GitHub 提交记录为准。您始终可以通过[此链接](https://github.com/SinzMise/blog/blob/master/pages/policies/privacy.md)查看本页面的原始 Markdown 文件。
 
 ### 我们主动收集的信息和理由
 
@@ -127,20 +127,16 @@ IP 属地精确到城市。
   - 我们使用了 Cloudflare 的静态网站托管（Pages）服务、域名解析（DNS）服务、网络应用防火墙（WAF）服务、内容分发网络（CDN）服务、人机验证服务（Turnstile）和性能分析服务（Browser Insights）；
 - GitHub：[隐私声明](https://docs.github.com/github/site-policy/github-privacy-statement)
   - 我们使用了 GitHub 的代码托管（Git）服务、持续集成（CI）服务和静态网站托管服务（Pages）；
-- Google：[隐私权和条款](https://policies.google.com/privacy)
-  - 我们使用了 Google 的 OAuth2 服务；
+- Auth0：[隐私权和条款](https://www.okta.com/privacy-policy/)
+  - 我们使用了 Auth0 的 OAuth2 服务；
 - Microsoft：[隐私声明](https://privacy.microsoft.com/privacystatement)
   - 我们在站点运营工作中使用了 Microsoft 365（包括 Office 365 专业增强版和 Exchange Online 等）服务；
 - Vercel：[Privacy Policy](https://vercel.com/legal/privacy-policy)
   - 我们使用了 Vercel 的域名解析（DNS）服务和无服务器函数（Serverless Functions）服务；
 - Umami: [Privacy Policy](https://umami.is/privacy)
   - 我们自行部署并使用了 Umami 开发的统计服务；
-- 阿里云：[隐私声明](https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud201902141711_54837.html)
-  - 我们使用了阿里云的邮件发送服务、域名解析（DNS）服务；
-- 多吉云: [隐私权政策](https://www.dogecloud.com/page/privacy-policy)
-  - 我们使用了多吉云的内容分发网络（CDN）服务；
-- 又拍云: [用户隐私政策](https://help.upyun.com/knowledge-base/%e7%94%a8%e6%88%b7%e9%9a%90%e7%a7%81%e6%94%bf%e7%ad%96/)
-  - 我们使用了又拍云的内容分发网络（CDN）服务、对象存储（USS）服务。
+- 腾讯云：[隐私声明](https://cloud.tencent.com/document/product/301/11470)
+  - 我们使用了腾讯云的域名解析（DNS）服务；
 
 </div>
 
@@ -174,7 +170,7 @@ We reserve the right to modify this agreement, amend or update this policy at an
 You should check this page periodically, using your browser's "refresh" button, to check for any revisions to this policy. If the "Last Updated" date remains the same, it can be assumed that no changes have been made.
 :::
 
-The newly revised policy will immediately replace all previously released versions, but CDN providers, website hosts, browsers, ISPs, and other organizations or individuals may cache this page for bandwidth saving or other reasons. In this case, the content of the page you see may not match the actual content, and the GitHub commit record shall prevail. You can always view the original Markdown file of this page via [this link](https://github.com/Big-Cake-jpg/big-cake-jpg.github.io/blob/source/pages/policies/privacy.md).
+The newly revised policy will immediately replace all previously released versions, but CDN providers, website hosts, browsers, ISPs, and other organizations or individuals may cache this page for bandwidth saving or other reasons. In this case, the content of the page you see may not match the actual content, and the GitHub commit record shall prevail. You can always view the original Markdown file of this page via [this link](https://github.com/SinzMise/blog/blob/master/pages/policies/privacy.md).
 
 ### Information we actively collect and why
 
@@ -241,19 +237,15 @@ In order to maintain the browsing experience of the site, we use some services p
   - We use Cloudflare's static website hosting (Pages) service, domain name resolution (DNS) service, web application firewall (WAF) service, content delivery network (CDN) service, human-computer verification service (Turnstile) and performance analysis service (Browser Insights);
 - GitHub: [Privacy Statement](https://docs.github.com/github/site-policy/github-privacy-statement)
   - We used GitHub's code hosting service (Git), continuous integration (CI) service and static website hosting service (Pages);
-- Google: [Privacy and Terms](https://policies.google.com/privacy)
-  - We use Google's OAuth2 service;
+- Auth0: [Privacy and Terms](https://www.okta.com/privacy-policy)
+  - We use Auth0's OAuth2 service;
 - Microsoft: [Privacy Statement](https://privacy.microsoft.com/privacystatement)
   - We use Microsoft 365 (including Office 365 ProPlus, Exchange Online, etc.) services in the operation of the Site;
 - Vercel: [Privacy Policy](https://vercel.com/legal/privacy-policy)
   - We used Vercel's Domain Name Resolution (DNS) service and Serverless Functions (Serverless Functions) service;
 - Umami: [Privacy Policy](https://umami.is/privacy)
   - We deployed and used the statistical service developed by Umami ourselves;
-- Alibaba Cloud (`aliyun.com`)：[隐私声明](https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud201902141711_54837.html)
-  - We used Alibaba Cloud's email sending service and domain name resolution (DNS) service;
-- DogeCloud (CN Mainland Only): [隐私权政策](https://www.dogecloud.com/page/privacy-policy)
-  - We use DogeCloud's content delivery network (CDN) service;
-- Upyun: [用户隐私政策](https://help.upyun.com/knowledge-base/%e7%94%a8%e6%88%b7%e9%9a%90%e7%a7%81%e6%94%bf%e7%ad%96/)
-  - We use Upyun's content delivery network (CDN) service and object storage (USS) service.
+- Tencent Cloud (`cloud.tencent.com`)：[隐私声明](https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud201902141711_54837.html)
+  - We used Tencent Cloud's domain name resolution (DNS) service;
 
 </div>

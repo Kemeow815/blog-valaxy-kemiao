@@ -146,10 +146,6 @@ export default defineValaxyConfig<ThemeConfig>({
         url: "/archives",
       },
       {
-        name: "音乐",
-        url: "/music",
-      },
-      {
         name: "友链",
         url: "/links",
       },
@@ -159,6 +155,10 @@ export default defineValaxyConfig<ThemeConfig>({
       {
         name: "隐私政策",
         url: "/policies/privacy",
+      },
+      {
+        name: "音乐盒",
+        url: "/music",
       },
       {
         name: "关于我",
