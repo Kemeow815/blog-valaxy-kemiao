@@ -239,10 +239,10 @@ export default defineValaxyConfig<ThemeConfig>({
       circleTransition: false,
     },
 
-    pageLoading: true,
+    pageLoading: false,
 
     webmention: {
-      enable: true,
+      enable: false,
       mention: 'https://webmention.io/blog.storical.space/webmention',
     },
 
