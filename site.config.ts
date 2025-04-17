@@ -1,7 +1,7 @@
 import { defineSiteConfig } from "valaxy";
 
 export default defineSiteConfig({
-  url: "",
+  url: "https://blog.kemiaosw.top",
   favicon: "https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/Kemeow815avatar.png",
   lang: "zh-CN",
   title: "喵落阁",
