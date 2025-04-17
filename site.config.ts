@@ -1,13 +1,13 @@
 import { defineSiteConfig } from "valaxy";
 
 export default defineSiteConfig({
-  url: "https://blog.kemiaosw.top",
+  url: "",
   favicon: "https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/Kemeow815avatar.png",
   lang: "zh-CN",
   title: "喵落阁",
   author: {
     name: "克喵爱吃卤面",
-    avatar: "https://s2.loli.net/2025/04/10/DTvjJeRY5b4i3Ga.jpg",
+    avatar: "https://s2.loli.net/2025/04/17/RpTyvlwan1WJDmt.jpg",
     email: "kemiaofx@163.com",
     link: "https://www.kemiao.online",
   },
